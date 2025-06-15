@@ -2,8 +2,18 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Gravel.Utilities</RootNamespace>
+        <IsPackable>true</IsPackable>
+        <PackageId>Gravel.Utilities</PackageId>
+        
+        <Version>0.0.1</Version>
+        <Authors>Sam Park</Authors>
+        <RepositoryUrl>https://github.com/ParkSam992/gravel-library</RepositoryUrl>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+    </ItemGroup>
 
 </Project>
